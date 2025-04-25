@@ -1,7 +1,6 @@
 package utils
 
 import (
-	"fmt"
 	"io"
 	"os"
 	"log"
@@ -33,7 +32,6 @@ func ReadWriteText(file_name string) string {
 		n, err := text.Read(buf)
 		
 		if n > 0 {
-			fmt.Print(string(buf[:n]))
 			content.Write(buf[:n])
 		}
 		if err == io.EOF {

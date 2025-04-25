@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"path/filepath"
 	"strings"
 	utils"hapax_analysis/utils"
@@ -22,8 +21,7 @@ func main() {
 	}
 	corpus := sb.String()
 	freqMap := utils.GetFreqMap(corpus, true)
-	for word, count := range freqMap {
-    fmt.Printf("%-15s → %d\n", word, count)
-  }
+
+	utils.WriteExcel(freqMap)
 }
 
