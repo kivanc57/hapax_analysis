@@ -24,4 +24,3 @@ func main() {
 
 	utils.WriteExcel(freqMap)
 }
-
