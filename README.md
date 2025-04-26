@@ -40,7 +40,7 @@ The project reads all `.txt` files from a specified directory, processes the tex
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [GNU GENERAL PUBLIC LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
