@@ -3,7 +3,7 @@ package main
 import (
 	"path/filepath"
 	"strings"
-	utils"hapax_analysis/utils"
+	utils"hapax_analysis/pkg/utils"
 )
 
 func main() {
