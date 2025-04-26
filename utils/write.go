@@ -14,7 +14,7 @@ func WriteExcel(freqMap map[string]int) {
 	})
 
 	f.SetCellValue("Sheet1", "A1", "ID")
-	f.SetCellValue("Sheet1", "B1", "Word")
+	f.SetCellValue("Sheet1", "B1", "Hapax")
 	
 	id := 2
 	for word, freq := range freqMap {
