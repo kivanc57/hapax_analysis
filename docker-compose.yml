@@ -1,0 +1,8 @@
+services:
+  hapax_analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hapax_analysis
+    restart: unless-stopped
+
